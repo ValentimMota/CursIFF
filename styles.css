@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.hero-image {
+   background-image: url('images/if.jpg'); /* Certifique-se de que o nome do arquivo de imagem esteja correto */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 0, 0);
+}
+
+.carousel-inner {
+    max-width: 500px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.mt-5 {
+    margin-top: 30px !important;
+}
+
+.mb-5 {
+    margin-bottom: 30px !important;
+}
+
+.card {
+    cursor: pointer;
+}
